@@ -9,11 +9,11 @@ import { User } from './user/entities/user.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
-      port: 3306,
-      username: 'root',
-      password: 'Raj.950@750',
-      database: 'dev',
+      host: 'mysql-1ca2b7b0-bidinn-dev-test.h.aivencloud.com',
+      port: 22991,
+      username: 'avnadmin',
+      password: 'AVNS_UKyK8rNAj3exsTlAA4M',
+      database: 'test',
       entities: [User],
       synchronize: true,
     }),
